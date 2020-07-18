@@ -1,0 +1,42 @@
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+
+/* style={{width: "300px" , margin: "100px 200px" , background: "white",
+  height: "70px" , padding: '40px 50px'
+  }} */
+
+  .model {
+    width: 300px;
+    margin: 10% 40% ;
+    background: white ;
+    height: 100px;
+  }
+
+  .svg{
+    margin-top:15%; 
+    
+  }
+
+  @media (max-width:450px) {
+    .model {
+      width: 300px;
+      margin: 50% 10% ;
+      background: lightgoldenrodyellow ;
+      height: 100px;
+    }
+
+    .svg{
+      visibility: hidden;
+    }
+  }
+
+  @media (max-width:900px) {
+    .svg{
+      visibility: hidden;
+    }
+  }
